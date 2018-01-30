@@ -1,0 +1,20 @@
+{
+	apple:company(id:"1"){
+    ...company_details
+  }
+
+}
+
+fragment company_details on Company {
+  id,
+  name,
+  description
+}
+
+mutation {
+  addUser(fistName:"Si Hua", age: 26) {
+    id,
+    firstName,
+    age
+  }
+}
