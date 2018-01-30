@@ -1,0 +1,1 @@
+# static-graphql-server
